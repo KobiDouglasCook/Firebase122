@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0463578523D1FA790003994C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0463578423D1FA790003994C /* GoogleService-Info.plist */; };
+		0463578723D205DB0003994C /* FireManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0463578623D205DB0003994C /* FireManager.swift */; };
 		04A8BD7C23D1F10E004062A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A8BD7B23D1F10E004062A7 /* AppDelegate.swift */; };
 		04A8BD7E23D1F10E004062A7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A8BD7D23D1F10E004062A7 /* SceneDelegate.swift */; };
 		04A8BD8023D1F10E004062A7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A8BD7F23D1F10E004062A7 /* HomeViewController.swift */; };
@@ -22,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		0463578423D1FA790003994C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0463578623D205DB0003994C /* FireManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireManager.swift; sourceTree = "<group>"; };
 		04A8BD7823D1F10E004062A7 /* Firebase122.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Firebase122.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A8BD7B23D1F10E004062A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04A8BD7D23D1F10E004062A7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -75,8 +77,9 @@
 				04A8BD9023D1F122004062A7 /* ViewController */,
 				04A8BD9123D1F12B004062A7 /* Storyboard */,
 				04A8BD9223D1F136004062A7 /* View */,
-				04A8BD8923D1F10F004062A7 /* Info.plist */,
+				0463578623D205DB0003994C /* FireManager.swift */,
 				0463578423D1FA790003994C /* GoogleService-Info.plist */,
+				04A8BD8923D1F10F004062A7 /* Info.plist */,
 				04A8BD7B23D1F10E004062A7 /* AppDelegate.swift */,
 				04A8BD7D23D1F10E004062A7 /* SceneDelegate.swift */,
 			);
@@ -256,6 +259,7 @@
 				04A8BD9823D1F2CF004062A7 /* Person.swift in Sources */,
 				04A8BD8023D1F10E004062A7 /* HomeViewController.swift in Sources */,
 				04A8BD7C23D1F10E004062A7 /* AppDelegate.swift in Sources */,
+				0463578723D205DB0003994C /* FireManager.swift in Sources */,
 				04A8BD7E23D1F10E004062A7 /* SceneDelegate.swift in Sources */,
 				04A8BD9523D1F206004062A7 /* PersonTableCell.swift in Sources */,
 			);
@@ -404,7 +408,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Firebase122/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = mac.Firebase122;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -419,7 +426,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Firebase122/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = mac.Firebase122;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

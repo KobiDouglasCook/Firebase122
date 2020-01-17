@@ -12,4 +12,11 @@ import Foundation
 struct Person {
     let name: String
     let number: String
+    let uid: String
+}
+
+extension Person {
+    var toDict: [String:String] {
+        return ["name":self.name, "number":self.number]
+    }
 }
