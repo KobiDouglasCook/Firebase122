@@ -19,9 +19,20 @@ struct FireManager {
     
     
     //MARK: Getters
-    
-    
-    
+    static func getPeople(completion: @escaping ([Person]) -> Void) {
+        
+        peopleRef.observeSingleEvent(of: .value) { snapshot in
+            var people = [Person]()
+            for snap in snapshot.children {
+                let data = snap as! DataSnapshot
+                if let person = Person(from: data) {
+                    people.append(person)
+                }
+            }
+            completion(people)
+            print("Retrieved Fire People: \(people.count)")
+        }
+    }
     
     
     //MARK: Setters
