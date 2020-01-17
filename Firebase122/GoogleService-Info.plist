@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>39780008452-0dvm19r3cl0oki4nj7so014jrthgjf3i.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.39780008452-0dvm19r3cl0oki4nj7so014jrthgjf3i</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAMR9ieHM_n1GNcbriAe0KPiMvErlxkjFc</string>
+	<key>GCM_SENDER_ID</key>
+	<string>39780008452</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>mac.Firebase122</string>
+	<key>PROJECT_ID</key>
+	<string>firetutorial-6476f</string>
+	<key>STORAGE_BUCKET</key>
+	<string>firetutorial-6476f.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:39780008452:ios:744c355b43a322ab9e6b51</string>
+	<key>DATABASE_URL</key>
+	<string>https://firetutorial-6476f.firebaseio.com</string>
+</dict>
+</plist>
